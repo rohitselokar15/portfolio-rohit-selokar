@@ -2,8 +2,6 @@ import React from "react";
 import home from "../assets/home.png";
 
 const Home = () => {
-
-  
   return (
     <div className="lg:grid grid-cols-2">
       <div>
@@ -36,14 +34,13 @@ const Home = () => {
         <div>
           <img src={home} className="md:w-[400px] lg:w-[300px]" />
           <div className="flex text-white my-3 mx-0 md:mx-10 px-3 ">
-            <button className=" p-1 my-4 px-3 font-semibold text-[20px] bg-purple-900 rounded-md"
-            >
+            <button className=" p-1.5 my-4 px-3 font-semibold text-[20px] bg-purple-700 rounded-md">
               Resume
             </button>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-            <button className=" p-1 my-4 px-3 font-semibold text-[20px] bg-purple-900 rounded-md mx-4 ">
-              Contact Me
-            </button>
+              <button className="my-4 p-1.5 px-3 font-semibold text-[20px] bg-purple-700 rounded-md mx-4 ">
+                Contact Me
+              </button>
             </a>
           </div>
         </div>
