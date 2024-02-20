@@ -40,7 +40,7 @@ function Header() {
           </div>
 
           <div
-            className={`lg:hidden fixed top-16 right-0 left-0 bg-slate-700 p-4 ${
+            className={`lg:hidden fixed top-16 right-0 left-0 bg-slate-600 p-4 ${
               showMenu ? "block" : "hidden"
             }`}
           >
@@ -49,7 +49,7 @@ function Header() {
                 <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/experience">EXPERIENCE</Link>
+                <Link to="/skill">SKILL</Link>
               </li>
               <li>
                 <Link to="/project">PROJECTS</Link>
