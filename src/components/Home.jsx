@@ -15,11 +15,11 @@ const Home = () => {
           <p className="text-[33px] font-bold my-3">Rohit Selokar</p>
         </div>
 
-        <div className="hidden font-openSans lg:flex lg:flex-col bg-slate-700 mx-12 my-2 rounded-xl py-2 text-center">
-          <p className="text-[30px] text-white font-bold">
+        <div className="hidden font-openSans lg:flex lg:flex-col bg-slate-700 mx-12 my-2 rounded-xl py-2">
+          <p className="text-[30px] text-white font-bold text-center">
             About <span>Me</span>
           </p>
-          <p className="p-4 text-gray-300">
+          <p className="p-4 text-gray-300 text-justify">
             I am a highly motivated and enthusiastic individual with a passion
             for web development, specializing in front-end technologies like
             HTML, CSS, JavaScript, Bootstrap, and React. I also have a
@@ -35,9 +35,9 @@ const Home = () => {
           <img src={home} className="md:w-[400px] lg:w-[300px]" />
           <div className="flex text-white my-3 mx-0 md:mx-10 px-3 ">
             <a href="Rohit_Selokar_Resume.pdf" download>
-            <button className=" p-1.5 my-4 px-3 font-semibold text-[19px] bg-purple-700 rounded-md">
-              Resume
-            </button>
+              <button className=" p-1.5 my-4 px-3 font-semibold text-[19px] bg-purple-700 rounded-md">
+                Resume
+              </button>
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
               <button className="my-4 p-1.5 px-2 font-semibold text-[19px] bg-purple-700 rounded-md mx-4 ">
@@ -68,7 +68,7 @@ const Home = () => {
         <p className="text-[30px] text-white font-bold">
           About <span>Me</span>
         </p>
-        <p className="p-4 text-gray-300">
+        <p className="p-4 text-gray-300 md:text-justify">
           I am a highly motivated and enthusiastic individual with a passion for
           web development, specializing in front-end technologies like HTML,
           CSS, JavaScript, Bootstrap, and React. I also have a foundational
