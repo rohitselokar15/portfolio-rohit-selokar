@@ -9,9 +9,9 @@ const Projects = () => {
   return (
     <div className="font-openSans lg:h-[112vh] xl:h-[62vh] lg:flex lg:items-center">
       <div>
-        <p className="text-center text-white font-bold text-[30px]">Projects</p>
-        <div className="mx-12 lg:mx-24 my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white transform hover:scale-110 duration-500">
+        <p className="text-center pt-3 text-white font-semibold text-[28px]">Projects</p>
+        <div className="mx-12 lg:mx-24 my-3 md:my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
+          <div className=" rounded-xl p-3 md:my-4 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={ecommerce} className="rounded-lg" />
             </div>
@@ -41,7 +41,7 @@ const Projects = () => {
             </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white transform hover:scale-110 duration-500">
+          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={clone} className="rounded-lg" />
             </div>
@@ -66,7 +66,7 @@ const Projects = () => {
             </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white transform hover:scale-110 duration-500">
+          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={blockchain} className="rounded-lg" />
             </div>
@@ -93,7 +93,7 @@ const Projects = () => {
             </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white transform hover:scale-110 duration-500">
+          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
             <div className="relative overflow-hidden">
               <img
                 src={weather}

@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
+
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
   };
 
   return (
@@ -13,8 +20,8 @@ function Header() {
       <header className="font-openSans bg-slate-900 sticky top-0 z-50">
         <nav className="flex items-center justify-between px-2 h-16 text-white">
           <div>
-            <p>
-              <Link to="/" className="bg-slate-900 border text-white rounded-[50%] p-1 ml-14 font-bold">RS</Link>
+            <p className="animate-pluse">
+              <Link to="/" className="bg-slate-900 border-2 text-white rounded-[50%] p-1 ml-14 font-bold">RS</Link>
             </p>
           </div>
 
@@ -31,6 +38,11 @@ function Header() {
               </li>
               <li className="mx-5">
                 <Link to="/contact">CONTACT</Link>
+              </li>
+              <li>
+              <button onClick={toggleDarkMode} className="m-1 p-1 rounded-lg bg-gray-300 dark:bg-gray-800 ">
+          {darkMode ? "Light" : "Dark"}
+        </button>
               </li>
             </ul>
           </div>

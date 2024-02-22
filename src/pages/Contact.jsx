@@ -4,8 +4,8 @@ import contact from "../assets/contact.jpg";
 const Contact = () => {
   return (
     <>
-      <div className="text-white mx-14 lg:mx-36 xl:mx-80 bg-slate-800 my-6 rounded-md font-openSans">
-        <div className="py-4">
+      <div className="text-white mx-14 lg:mx-36 xl:mx-80 bg-slate-800 my-6 rounded-md font-openSans" data-aos="fade-up" data-aos-duration="800" >
+        <div className="py-4" >
           <p className="text-center text-[28px] font-semibold">Contact Me</p>
 
           <div className="flex flex-col justify-center items-center md:flex md:flex-row lg:flex lg:flex-row lg:mx-14 lg:justify-around xl:mx-20">
@@ -48,7 +48,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div>
+            <div>   
               <img
                 src={contact}
                 className="w-[230px] rounded-xl md:w-[260px] lg:w-[260px] xl:w-[250px]"
