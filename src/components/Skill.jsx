@@ -8,9 +8,9 @@ import cc from "../assets/c.svg";
 
 const Skill = () => {
   return (
-    <div className=" flex justify-center items-center">
+    <div className=" flex justify-center items-center dark:bg-black">
       <div className="font-openSans" data-aos="fade-up" data-aos-duration="800">
-        <p className="text-center font-semibold text-white text-[28px] py-4">
+        <p className="text-center font-bold text-purple-700 text-[28px] py-4 dark:text-white">
           Tech Stack
         </p>
 

@@ -3,20 +3,20 @@ import contact from "../assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <>
-      <div className="text-white mx-14 lg:mx-36 xl:mx-80 bg-slate-800 my-6 rounded-md font-openSans" data-aos="fade-up" data-aos-duration="800" >
+    <div>
+      <div className="text-white mx-14 lg:mx-36 xl:mx-80 my-6 rounded-md font-openSans dark:bg-slate-900" data-aos="fade-up" data-aos-duration="800" >
         <div className="py-4" >
-          <p className="text-center text-[28px] font-semibold">Contact Me</p>
+          <p className="text-purple-700 text-center text-[28px] font-bold dark:text-white">Contact Me</p>
 
           <div className="flex flex-col justify-center items-center md:flex md:flex-row lg:flex lg:flex-row lg:mx-14 lg:justify-around xl:mx-20">
             <div className=" p-2">
               <div className="flex items-center">
                 <a href="#" target="_blank">
-                  <i class="fa-solid fa-paper-plane mx-4 fa-md p-3 bg-purple-700 rounded-[50%]"></i>
+                  <i class="fa-solid fa-paper-plane mx-4 fa-md p-3 bg-purple-600  rounded-[50%]"></i>
                 </a>
                 <div className="my-4">
-                  <p className="font-bold text-[17px]">LOCATION</p>
-                  <p className="text-[14px] text-gray-400">Maharashtra,India</p>
+                  <p className="text-black font-semibold text-[16px] dark:text-white">LOCATION</p>
+                  <p className="text-[14px] text-gray-700 dark:text-gray-400">Maharashtra,India</p>
                 </div>
               </div>
 
@@ -28,8 +28,8 @@ const Contact = () => {
                   <i class="fa-solid fa-envelope mx-4 fa-md p-3 bg-purple-700 rounded-[50%]"></i>
                 </a>
                 <div className="my-4">
-                  <p className="font-bold text-[17px]">MAIL</p>
-                  <p className="text-[14px] text-gray-400">
+                  <p className="text-black font-semibold text-[16px] dark:text-white">MAIL</p>
+                  <p className="text-[14px] text-gray-700 dark:text-gray-400">
                     rohitselokar1572002@gmail.com
                   </p>
                 </div>
@@ -40,8 +40,8 @@ const Contact = () => {
                   <i class="fa-solid fa-user mx-4 fa-md p-3 bg-purple-700 rounded-[50%]"></i>
                 </a>
                 <div className="my-4">
-                  <p className="font-bold text-[17px]">RESUME</p>
-                  <p className="text-[14px] text-gray-400">
+                  <p className="text-black font-semibold text-[16px] dark:text-white">RESUME</p>
+                  <p className="text-[14px] text-gray-700 dark:text-gray-400">
                     Download my resume
                   </p>
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

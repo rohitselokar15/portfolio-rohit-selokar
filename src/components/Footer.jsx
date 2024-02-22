@@ -17,10 +17,11 @@ const Footer = () => {
             <i className="fa-brands fa-github fa-xl mx-5"></i>
           </a>
           <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-            <i className="fa-solid fa-envelope fa-xl mx-5"></i>
+            <i className="fa-solid fa-envelope fa-xl mx-5 "></i>
           </a>
           <i className="fa-solid fa-phone fa-xl mx-5"></i>
         </div>
+       
       </div>
   )
 }

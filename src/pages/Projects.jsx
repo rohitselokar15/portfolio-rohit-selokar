@@ -9,21 +9,21 @@ const Projects = () => {
   return (
     <div className="font-openSans lg:h-[112vh] xl:h-[62vh] lg:flex lg:items-center">
       <div>
-        <p className="text-center pt-3 text-white font-semibold text-[28px]">Projects</p>
-        <div className="mx-12 lg:mx-24 my-3 md:my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
-          <div className=" rounded-xl p-3 md:my-4 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
+        <p className="text-center pt-3 text-purple-700 font-bold text-[28px] dark:text-white">Projects</p>
+        <div className="mx-[65px] lg:mx-24 my-3 md:my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
+          <div className=" rounded-xl p-3 md:my-4 text-black shadow-xl dark:text-white dark:bg-slate-900" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={ecommerce} className="rounded-lg" />
             </div>
             <p className="font-bold my-2">
               Shopping Application using React.js
             </p>
-            <div className="flex items-center mt-4">
+            <div className="flex items-center">
               <a
                 href="https://ecommerce-app-context-api.vercel.app/login"
                 target="_blank"
               >
-                <button className="bg-purple-600 p-1.5 px-2 font-semibold rounded-md text-[16px]">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
                   visit project
                 </button>
               </a>
@@ -34,21 +34,16 @@ const Projects = () => {
                 <i className="fa-brands fa-github fa-xl mx-7"></i>
               </a>
             </div>
-            {/* <p className="text-gray-200">
-              Developed an eco-friendly carbon credit trading system with
-              seamless smart contract integration on Thirdweb, featuring a
-              user-friendly interface using Tailwind CSS.
-            </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
+          <div className=" rounded-xl p-3 my-3 text-black shadow-xl dark:text-white dark:bg-slate-900" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={clone} className="rounded-lg" />
             </div>
             <p className="font-bold my-2">Qloron Technology ERP page clone</p>
             <div className="flex items-center mt-4">
               <a href="https://qloron-erp-page.vercel.app/" target="_blank">
-                <button className="bg-purple-600 p-1.5 px-2 font-semibold rounded-md text-[16px]">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
                   visit project
                 </button>
               </a>
@@ -66,7 +61,7 @@ const Projects = () => {
             </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
+          <div className=" rounded-xl p-3 my-3 text-black shadow-xl dark:text-white dark:bg-slate-900" data-aos="fade-up" data-aos-duration="800">
             <div>
               <img src={blockchain} className="rounded-lg" />
             </div>
@@ -75,7 +70,7 @@ const Projects = () => {
             </p>
             <div className="flex items-center mt-4">
               <a href="https://qloron-erp-page.vercel.app/" target="_blank">
-                <button className="bg-purple-600 p-1.5 px-2 font-semibold rounded-md text-[16px]">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
                   visit project
                 </button>
               </a>
@@ -93,7 +88,7 @@ const Projects = () => {
             </p> */}
           </div>
 
-          <div className=" rounded-xl p-3 my-3 bg-slate-700 text-white" data-aos="fade-up" data-aos-duration="800">
+          <div className=" rounded-xl p-3 my-3 text-black shadow-xl dark:text-white dark:bg-slate-900" data-aos="fade-up" data-aos-duration="800">
             <div className="relative overflow-hidden">
               <img
                 src={weather}
@@ -106,7 +101,7 @@ const Projects = () => {
                 href="https://weather-app-beige-tau.vercel.app/"
                 target="_blank"
               >
-                <button className="bg-purple-600 p-1.5 px-2 font-semibold rounded-md text-[16px]">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
                   visit project
                 </button>
               </a>
