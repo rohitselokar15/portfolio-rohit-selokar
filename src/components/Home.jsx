@@ -2,11 +2,14 @@ import React from "react";
 import home from "../assets/home.png";
 
 const Home = () => {
+    
   return (
-    <div className="lg:grid grid-cols-2 ">
-      <div>
-        <div className=" bg-purple-50 font-openSans my-6 mx-12 text-center p-5 rounded-2xl text-black lg:my-9 dark:text-white dark:bg-black">
-          <p className="text-[34px] font-bold md:text-[40px]">Hello <span className="fa-lg">👋</span> I Am</p>
+    <div id="/" className="lg:grid grid-cols-2 ">
+      <div> 
+        <div className=" bg-purple-100 font-openSans md:my-6 mx-12 text-center p-5 rounded-2xl text-black lg:my-9 dark:text-white dark:bg-black">
+          <p className="text-[34px] font-bold md:text-[40px]">
+            Hello <span className="fa-lg">👋</span> I Am
+          </p>
 
           <button className="p-2 mt-5 text-white rounded-lg px-4 font-semibold bg-purple-700 shadow-md shadow-indigo-800/70">
             Web Developer
@@ -15,7 +18,7 @@ const Home = () => {
           <p className="text-[33px] font-bold my-3">Rohit Selokar</p>
         </div>
 
-        <div className=" hidden bg-purple-50 font-openSans lg:flex lg:flex-col  mx-12 my-2 rounded-xl py-2 dark:text-white dark:bg-slate-800">
+        <div className=" hidden bg-purple-100 font-openSans lg:flex lg:flex-col  mx-12 my-2 rounded-xl py-2 dark:text-white dark:bg-slate-800">
           <p className="text-[30px] text-black font-bold text-center dark:text-white">
             About <span>Me</span>
           </p>
@@ -53,29 +56,36 @@ const Home = () => {
               href="https://www.linkedin.com/in/rohit-selokar-061755217/"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 border dark:bg-white text-blue-500"></i>
-            </a>
-          </p>
-          <p>
-            <a href="https://github.com/rohitselokar15" target="_blank">
-              <i className="fa-brands fa-github text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 border dark:bg-white"></i>
-            </a>
-          </p>
-          <p>
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-              <i className="fa-solid fa-envelope text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 border dark:bg-white text-red-600"></i>
+              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 bg-purple-200 dark:bg-white text-blue-600"></i>
             </a>
           </p>
 
           <p>
-            <i className="fa-solid fa-phone text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 border dark:bg-white text-green-700"></i>
+            <a href="https://github.com/rohitselokar15" target="_blank">
+              <i className="fa-brands fa-github text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white"></i>
+            </a>
+          </p>
+
+          <p>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+              <i className="fa-solid fa-envelope text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-red-600"></i>
+            </a>
+          </p>
+
+          <p>
+            <a
+              href="https://twitter.com/rohiit_15?t=orYIJcL0dyw79MhCRTJfHQ&s=08"
+              target="_blank"
+            >
+              <i class="fa-brands fa-twitter text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-blue-600"></i>
+            </a>
           </p>
         </div>
       </div>
 
       <div
-        className="lg:hidden bg-purple-100 font-openSans mx-12 my-6 rounded-xl py-2 text-center dark:bg-slate-800"
-        data-aos="fade-up" 
+        className="lg:hidden bg-purple-100 font-openSans mx-14 my-6 rounded-xl py-2 text-center dark:bg-slate-800"
+        data-aos="fade-up"
         data-aos-duration="1000"
       >
         <p className="text-[28px] text-black font-bold dark:text-white">
@@ -89,6 +99,7 @@ const Home = () => {
           me to deliver user-friendly and visually engaging web solutions.
         </p>
       </div>
+      
     </div>
   );
 };

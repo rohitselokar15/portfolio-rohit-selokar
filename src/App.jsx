@@ -1,34 +1,29 @@
-import React, { useState } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+// import React, { useState } from "react";
+// import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Projects from "./pages/Projects";
 import Skill from "./components/Skill";
-import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Experience from './components/Experience';
+import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Project from "./components/Project";
 
 const App = () => {
 
   return (
-    <div className="dark:bg-black">
-      <BrowserRouter>
+    <div className="bg-purple-50 dark:bg-black">
+      {/* <BrowserRouter> */}
         <Navbar />
-
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/skill" element={<Skill />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
-
         <Home />
-        <Projects />
+        <Project/>
         <Skill />
-        <Contact />
-
-        <Footer />
+        <Education/>
+        <Experience/>
+        <Contact/>
+        <Footer/>
         
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 };

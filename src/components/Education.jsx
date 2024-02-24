@@ -1,50 +1,50 @@
-import React from "react";
-import education from "../assets/education.jpg";
+"use client";
+
+import { Timeline } from "flowbite-react";
+import { HiCalendar } from "react-icons/hi";
 
 const Education = () => {
   return (
-    <div className="my-9">
-        <p className="text-center font-bold text-[20px] my-3">Education</p>
-        <div className="md:flex justify-center items-center">
-          <div>
-            <div className="flex items-center my-1">
-              <i className="fa-solid fa-laptop fa-lg mx-2"></i>
-              <div className="my-2 mx-3">
-                <p className="font-semibold">
-                  G H Raisoni College of Engineering{" "}
-                  <span className="font-bold">Jan 2020-2024</span>
-                </p>
-                <p>Bachelor of Technology - Information Technology (CGPA-8.8)</p>
-              </div>
-            </div>
+    <div id="education" className="my-16 mx-14 md:mx-22 lg:mx-36 xl:mx-52" >
+      <p className="text-center text-[28px] dark:text-white font-semibold my-6">
+        Education
+      </p>
+      <Timeline horizontal>
+        <Timeline.Item >
+          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
+            <Timeline.Title>
+              Bachelor of Technology In Information Technology
+            </Timeline.Title>
+            <Timeline.Time className="text-gray-900">2020-2024</Timeline.Time>
+            <Timeline.Body className="text-gray-900">
+              GH Raisoni College of Engineering, Nagpur, Maharashtra
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
 
-            <div className="flex items-center my-1">
-              <i className="fa-solid fa-laptop fa-lg mx-2"></i>
-              <div className="my-2 mx-3">
-                <p className="font-semibold">
-                  G H Raisoni College of Engineering{" "}
-                  <span className="font-bold">Jan 2020-2024</span>
-                </p>
-                <p>Bachelor of Technology - Information Technology (CGPA-8.8)</p>
-              </div>
-            </div>
+        <Timeline.Item>
+          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
+            <Timeline.Title>Higher Secondary / Junior College</Timeline.Title>
+            <Timeline.Time className="text-gray-900">2018-2020</Timeline.Time>
+            <Timeline.Body className="text-gray-900">
+              Dr M K Umathe Science College, Nagpur, Maharashtra
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
 
-            <div className="flex items-center my-1">
-              <i className="fa-solid fa-laptop fa-lg mx-2"></i>
-              <div className="my-2 mx-3">
-                <p className="font-semibold">
-                  G H Raisoni College of Engineering{" "}
-                  <span className="font-bold">Jan 2020-2024</span>
-                </p>
-                <p>Bachelor of Technology - Information Technology (CGPA-8.8)</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="hidden md:flex">
-            <img src={education} alt="education-images" className="md:h-[40vh] md:w-[350px] lg:w-[383px] xl:w-[480px]"/>
-          </div>
-        </div>
+        <Timeline.Item>
+          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
+            <Timeline.Title>Primary And Secondary Education</Timeline.Title>
+            <Timeline.Time className="text-gray-900">2006-2017</Timeline.Time>
+            <Timeline.Body className="text-gray-900">
+              Yashoda High School, Nagpur, Maharashtra
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
+      </Timeline>
     </div>
   );
 };
