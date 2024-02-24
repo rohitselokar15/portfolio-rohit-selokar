@@ -1,7 +1,7 @@
 "use client";
 
 import { Timeline } from "flowbite-react";
-import { HiCalendar } from "react-icons/hi";
+import { HiHome } from "react-icons/hi";
 
 const Education = () => {
   return (
@@ -11,7 +11,7 @@ const Education = () => {
       </p>
       <Timeline horizontal>
         <Timeline.Item >
-          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Point icon={HiHome} />
           <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
             <Timeline.Title>
               Bachelor of Technology In Information Technology
@@ -24,7 +24,7 @@ const Education = () => {
         </Timeline.Item>
 
         <Timeline.Item>
-          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Point icon={HiHome}/>
           <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
             <Timeline.Title>Higher Secondary / Junior College</Timeline.Title>
             <Timeline.Time className="text-gray-900">2018-2020</Timeline.Time>
@@ -35,7 +35,7 @@ const Education = () => {
         </Timeline.Item>
 
         <Timeline.Item>
-          <Timeline.Point icon={HiCalendar} />
+          <Timeline.Point icon={HiHome} />
           <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
             <Timeline.Title>Primary And Secondary Education</Timeline.Title>
             <Timeline.Time className="text-gray-900">2006-2017</Timeline.Time>

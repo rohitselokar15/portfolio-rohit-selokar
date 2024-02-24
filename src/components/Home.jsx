@@ -2,10 +2,9 @@ import React from "react";
 import home from "../assets/home.png";
 
 const Home = () => {
-    
   return (
     <div id="/" className="lg:grid grid-cols-2 ">
-      <div> 
+      <div>
         <div className=" bg-purple-100 font-openSans md:my-6 mx-12 text-center p-5 rounded-2xl text-black lg:my-9 dark:text-white dark:bg-black">
           <p className="text-[34px] font-bold md:text-[40px]">
             Hello <span className="fa-lg">👋</span> I Am
@@ -84,7 +83,7 @@ const Home = () => {
       </div>
 
       <div
-        className="lg:hidden bg-purple-100 font-openSans mx-14 my-6 rounded-xl py-2 text-center dark:bg-slate-800"
+        className="lg:hidden bg-purple-100 font-openSans mx-10 my-6 rounded-xl py-2 text-center dark:bg-slate-800"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -99,7 +98,6 @@ const Home = () => {
           me to deliver user-friendly and visually engaging web solutions.
         </p>
       </div>
-      
     </div>
   );
 };
