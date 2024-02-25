@@ -1,5 +1,6 @@
 import React from "react";
-import home from "../assets/home.png";
+// import home from "../assets/home.png";
+import rohit from "../assets/my_image.jpg"
 
 const Home = () => {
   return (
@@ -33,16 +34,16 @@ const Home = () => {
       </div>
 
       <div className=" mx-3 flex justify-center items-center">
-        <div className=" p-4">
-          <img src={home} className="md:w-[400px] lg:w-[300px]" />
-          <div className="flex items-center justify-center lg:mt-8 text-white">
+        <div className=" p-2 mt-3  flex flex-col items-center">
+          <img src={rohit} className="w-[190px] md:w-[260px] lg:w-[270px] rounded-full bg-purple-700 shadow-xl shadow-indigo-800/60 " />
+          <div className=" flex items-center justify-center lg:mt-2 text-white mt-2">
             <a href="Rohit_Selokar_Resume.pdf" download>
-              <button className=" p-1.5 my-4 px-3 font-semibold text-[19px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 ">
+              <button className=" p-1.5 my-4 px-3 font-semibold text-[18px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 ">
                 Resume
               </button>
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-              <button className="p-1.5 my-4 px-2 font-semibold text-[19px] bg-purple-700 shadow-lg shadow-indigo-800/70  rounded-md mx-7">
+              <button className="p-1.5 my-4 px-3 font-semibold text-[18px] bg-purple-700 shadow-lg shadow-indigo-800/70  rounded-md mx-5">
                 Contact Me
               </button>
             </a>

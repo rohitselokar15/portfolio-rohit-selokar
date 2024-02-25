@@ -13,7 +13,7 @@ const Project = () => {
     >
       <div>
         <p className="text-center pt-3 font-semibold  text-[28px] dark:text-white">
-          Projects
+          Latest Projects
         </p>
         <div className="mx-[65px] lg:mx-24 my-3 md:my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
           <div

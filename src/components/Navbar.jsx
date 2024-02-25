@@ -45,17 +45,7 @@ function Header() {
                   HOME
                 </Link>
               </li>
-              <li className="mx-5 cursor-pointer">
-                <Link
-                  to="skill"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  SKILL
-                </Link>
-              </li>
+              
               <li className="mx-5 cursor-pointer">
                 <Link
                   to="project"
@@ -67,17 +57,19 @@ function Header() {
                   PROJECTS
                 </Link>
               </li>
+
               <li className="mx-5 cursor-pointer">
                 <Link
-                  to="experience"
+                  to="skill"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
                 >
-                  EXPERIENCE
+                  SKILL
                 </Link>
               </li>
+
               <li className="mx-5 cursor-pointer">
                 <Link
                   to="education"
@@ -89,6 +81,20 @@ function Header() {
                   EDUCATION
                 </Link>
               </li>
+
+              <li className="mx-5 cursor-pointer">
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  EXPERIENCE
+                </Link>
+              </li>
+
+              
               <li className="mx-5 cursor-pointer">
                 <Link
                   to="contact"
@@ -131,12 +137,12 @@ function Header() {
           </div>
 
           <div
-            className={`lg:hidden fixed top-16 right-0 left-0 text-white bg-purple-500 py-3 my-1 mx-20 rounded-lg dark:bg-slate-700 dark:text-white ${
+            className={`lg:hidden fixed top-16 right-0 left-0 text-white bg-purple-500 py-2 my-2 mx-20 rounded-lg dark:bg-slate-800 dark:text-white ${
               showMenu ? "block" : "hidden"
             }`}
           >
-            <ul className="flex flex-col gap-2 items-center font-semibold text-[16px]">
-              <li>
+            <ul className="flex flex-col gap-3 items-center font-semibold text-[16px]">
+            <li>
                 <Link
                   to="/"
                   spy={true}
@@ -147,17 +153,7 @@ function Header() {
                   HOME
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="skill"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  SKILL
-                </Link>
-              </li>
+
               <li>
                 <Link
                   to="project"
@@ -169,17 +165,19 @@ function Header() {
                   PROJECTS
                 </Link>
               </li>
+
               <li>
                 <Link
-                  to="experience"
+                  to="skill"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={500}
                 >
-                  EXPERIENCE
+                  SKILL
                 </Link>
               </li>
+            
               <li>
                 <Link
                   to="education"
@@ -191,6 +189,19 @@ function Header() {
                   EDUCATION
                 </Link>
               </li>
+
+              <li>
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  EXPERIENCE
+                </Link>
+              </li>
+
               <li>
                 <Link
                   to="contact"
@@ -199,7 +210,7 @@ function Header() {
                   offset={-70}
                   duration={500}
                 >
-                  CONTACT
+                  CONTACT ME
                 </Link>
               </li>
               <li>
