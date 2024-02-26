@@ -39,10 +39,10 @@ const Skill = () => {
   return (
     <div
       id="skill"
-      className="mt-8 mx-4 xl:mx-16 rounded-md overflow-hidden bg-purple-50 dark:bg-black"
+      className="mt-8 rounded-md overflow-hidden bg-purple-200 dark:bg-black"
     >
       <div data-aos="fade-up" data-aos-duration="800">
-        <p className="text-center mb-4 font-semibold text-black text-[28px] dark:text-white">
+        <p className="text-center mt-3 mb-4 font-semibold text-black text-[28px] dark:text-white">
           Tech Stack
         </p>
 

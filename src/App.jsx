@@ -12,7 +12,7 @@ import Project from "./components/Project";
 const App = () => {
 
   return (
-    <div className="bg-purple-50 dark:bg-black">
+    <div className="bg-purple-100 dark:bg-black">
       {/* <BrowserRouter> */}
         <Navbar />
         <Home />
