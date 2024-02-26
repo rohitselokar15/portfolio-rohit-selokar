@@ -11,9 +11,14 @@ const Project = () => {
       id="project"
       className="font-openSans lg:h-[112vh] xl:h-[62vh] lg:flex lg:items-center"
     >
-      <div>
-        <p className="text-center pt-3 font-semibold  text-[28px] dark:text-white">
-          Latest Projects
+      <div className="flex items-center justify-center flex-col">
+        <p className="group text-black text-[28px] font-semibold my-1 transition-all duration-300 ease-in-out">
+          <span
+            className=" p-2 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
+          group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"
+          >
+            Latest Projects
+          </span>
         </p>
         <div className="mx-[65px] lg:mx-24 my-3 md:my-4 grid gap-5 md:grid-cols-2 md:gap-x-9 md:mx-24 lg:grid-cols-3 xl:grid-cols-4">
           <div
@@ -32,7 +37,7 @@ const Project = () => {
                 href="https://ecommerce-app-context-api.vercel.app/login"
                 target="_blank"
               >
-                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                   visit project
                 </button>
               </a>
@@ -56,7 +61,7 @@ const Project = () => {
             <p className="font-bold my-2">Qloron Technology ERP page clone</p>
             <div className="flex items-center mt-4">
               <a href="https://qloron-erp-page.vercel.app/" target="_blank">
-                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                   visit project
                 </button>
               </a>
@@ -82,7 +87,7 @@ const Project = () => {
             </p>
             <div className="flex items-center mt-4">
               <a href="https://qloron-erp-page.vercel.app/" target="_blank">
-                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                   visit project
                 </button>
               </a>
@@ -112,7 +117,7 @@ const Project = () => {
                 href="https://weather-app-beige-tau.vercel.app/"
                 target="_blank"
               >
-                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70">
+                <button className=" p-1.5 px-3 font-semibold text-[16px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                   visit project
                 </button>
               </a>

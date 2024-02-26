@@ -42,9 +42,16 @@ const Skill = () => {
       className="mt-8 rounded-md overflow-hidden bg-purple-200 dark:bg-black"
     >
       <div data-aos="fade-up" data-aos-duration="800">
-        <p className="text-center mt-3 mb-4 font-semibold text-black text-[28px] dark:text-white">
-          Tech Stack
+        <div className="flex flex-col items-center" >
+        <p className="group text-black text-[28px] font-semibold my-3 transition-all duration-300 ease-in-out">
+          <span
+            className="p-2 px-4 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
+          group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"
+          >
+            Skill
+          </span>
         </p>
+        </div>
 
         <Slider {...settings}>
           {logos.map((logo, index) => (

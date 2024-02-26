@@ -25,17 +25,23 @@ const Contact = () => {
   return (
     <form
       id="contact"
-      className="mb-8 mx-8 p-0 py-2 md:mx-12 lg:mx-[30%]"
+      className="mb-8 mx-8 p-0 py-2 md:mx-28 lg:mx-[25%] xl:mx-[30%]"
       ref={form}
       onSubmit={sendEmail}
-      data-aos="fade-up" data-aos-duration="800"
+      data-aos="fade-up"
+      data-aos-duration="800"
     >
-      <p className="text-[26px] font-semibold text-center dark:text-white">
-        Contact Me
-      </p>
-      <div
-        className="my-5 p-6 dark:bg-slate-900 rounded-lg shadow-xl shadow-indigo-900/20"
-      >
+      <div className="flex justify-center ">
+        <p className=" group text-black text-[28px] font-semibold my-1 transition-all duration-300 ease-in-out">
+          <span
+            className="p-2 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
+          group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"
+          >
+            Contact Me
+          </span>
+        </p>
+      </div>
+      <div className="my-5 p-6 dark:bg-slate-900 rounded-lg shadow-xl shadow-indigo-900/20">
         <label className="text-[19px] font-semibold dark:text-white">
           Email Me 🚀
         </label>

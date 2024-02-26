@@ -34,7 +34,7 @@ function Header() {
 
           <div className={`hidden lg:flex  ${showMenu ? "block" : "hidden"}`}>
             <ul className=" flex items-center  text-[14px] pr-16">
-              <li className="mx-5 cursor-pointer">
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="/"
                   spy={true}
@@ -45,8 +45,8 @@ function Header() {
                   HOME
                 </Link>
               </li>
-              
-              <li className="mx-5 cursor-pointer">
+
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="project"
                   spy={true}
@@ -58,7 +58,7 @@ function Header() {
                 </Link>
               </li>
 
-              <li className="mx-5 cursor-pointer">
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="skill"
                   spy={true}
@@ -70,7 +70,7 @@ function Header() {
                 </Link>
               </li>
 
-              <li className="mx-5 cursor-pointer">
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="education"
                   spy={true}
@@ -82,7 +82,7 @@ function Header() {
                 </Link>
               </li>
 
-              <li className="mx-5 cursor-pointer">
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="experience"
                   spy={true}
@@ -94,8 +94,7 @@ function Header() {
                 </Link>
               </li>
 
-              
-              <li className="mx-5 cursor-pointer">
+              <li className="mx-5 cursor-pointer hover:text-purple-700 hover:translate hover:scale-125 hover:font-semibold hover:duration-500 dark:text-white">
                 <Link
                   to="contact"
                   spy={true}
@@ -142,7 +141,7 @@ function Header() {
             }`}
           >
             <ul className="flex flex-col gap-3 items-center font-semibold text-[16px]">
-            <li>
+              <li>
                 <Link
                   to="/"
                   spy={true}
@@ -177,7 +176,7 @@ function Header() {
                   SKILL
                 </Link>
               </li>
-            
+
               <li>
                 <Link
                   to="education"

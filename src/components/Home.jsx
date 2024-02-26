@@ -36,15 +36,18 @@ const Home = () => {
 
       <div className="flex justify-center items-center">
         <div className=" p-2 mt-8  flex flex-col items-center">
-          <img src={user} className=" bg-purple-500 shadow-lg shadow-purple-800 rounded-3xl w-[190px] md:w-[260px] lg:w-[250px] xl:w-[250px] md:rounded-[30%] lg:rounded-[20%] md:bg-purple-700 md:shadow-xl md:shadow-indigo-800/50 " />
+          <img
+            src={user}
+            className=" bg-purple-500 shadow-lg shadow-purple-800 rounded-3xl w-[190px] md:w-[260px] lg:w-[250px] xl:w-[250px] md:rounded-[30%] lg:rounded-[20%] md:bg-purple-700 md:shadow-xl md:shadow-indigo-800/50"
+          />
           <div className=" flex items-center justify-center lg:mt-2 text-white mt-2">
             <a href="Rohit_Selokar_Resume.pdf" download>
-              <button className="mx-3 p-1.5 my-4 px-3 font-semibold text-[18px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 ">
+              <button className="mx-3 p-1.5 my-4 px-3 font-semibold text-[18px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                 Resume
               </button>
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-              <button className="p-1.5 my-4 px-3 font-semibold text-[18px] bg-purple-700 shadow-lg shadow-indigo-800/70  rounded-md mx-3">
+              <button className="p-1.5 my-4 px-3 font-semibold text-[18px] bg-purple-700 shadow-lg shadow-indigo-800/70 rounded-md mx-3 hover:bg-purple-900">
                 Contact Me
               </button>
             </a>
@@ -57,19 +60,19 @@ const Home = () => {
               href="https://www.linkedin.com/in/rohit-selokar-061755217/"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 bg-purple-200 dark:bg-white text-blue-600"></i>
+              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 bg-purple-200 dark:bg-white text-blue-600 hover:bg-blue-700 hover:text-white hover:duration-700 dark:text-blue-600"></i>
             </a>
           </p>
 
           <p>
             <a href="https://github.com/rohitselokar15" target="_blank">
-              <i className="fa-brands fa-github text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white"></i>
+              <i className="fa-brands fa-github text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white hover:bg-black hover:text-white hover:duration-700 dark:hover:text-black"></i>
             </a>
           </p>
 
           <p>
             <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-              <i className="fa-solid fa-envelope text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-red-600"></i>
+              <i className="fa-solid fa-envelope text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-red-600 hover:bg-red-700 hover:text-white hover:duration-700 dark:hover:text-red-600"></i>
             </a>
           </p>
 
@@ -78,7 +81,7 @@ const Home = () => {
               href="https://twitter.com/rohiit_15?t=orYIJcL0dyw79MhCRTJfHQ&s=08"
               target="_blank"
             >
-              <i class="fa-brands fa-twitter text-[28px] m-3   p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-blue-600"></i>
+              <i class="fa-brands fa-twitter text-[28px] m-3 p-2 rounded-[50%] md:my-8 lg:mx-8 bg-purple-200 dark:bg-white text-blue-600 hover:bg-blue-700 hover:text-white hover:duration-700 dark:hover:text-blue-600"></i>
             </a>
           </p>
         </div>

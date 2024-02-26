@@ -5,10 +5,17 @@ import { HiOfficeBuilding } from "react-icons/hi";
 
 const Experience = () => {
   return (
-    <div id="experience" className="my-16 mx-14 md:mx-22 lg:mx-36 xl:mx-52">
-      <p className="text-center text-[28px] dark:text-white font-semibold my-6">
-        Experience
-      </p>
+    <div id="experience" className="my-8 mx-14 md:mx-22 lg:mx-36 xl:mx-52">
+      <div className="flex justify-center mb-8">
+        <p className=" group text-black text-[28px] font-semibold my-1 transition-all duration-300 ease-in-out">
+          <span
+            className=" p-2 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
+          group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"
+          >
+            Experience
+          </span>
+        </p>
+      </div>
       <Timeline horizontal>
         <Timeline.Item>
           <Timeline.Point icon={HiOfficeBuilding} />
