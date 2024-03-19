@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Timeline } from "flowbite-react";
+import { Timeline } from "flowbite-react";
 import { HiOfficeBuilding } from "react-icons/hi";
 
 const Experience = () => {
@@ -27,9 +27,16 @@ const Experience = () => {
               Dec 2023 - Present
             </Timeline.Time>
             <Timeline.Body className="text-gray-900">
-              Get access to over 20+ pages including a dashboard layout, charts,
-              kanban board, calendar, and pre-order E-commerce & Marketing
-              pages.
+              <p>
+                • Developed frontend features for various web applications,
+                including a Todo List application, a hotel booking application
+                (Konato), and a real estate clone frontend.
+              </p>
+              <p>
+                • Implemented functionalities such as conditional routing,
+                product filtering by category, sorting products by price,
+                pagination, and search bar integration.
+              </p>
             </Timeline.Body>
           </Timeline.Content>
         </Timeline.Item>
@@ -45,12 +52,33 @@ const Experience = () => {
             </Timeline.Time>
             <Timeline.Body className="text-gray-900">
               <p>
-                Intern as a frontend developer, hands-on with HTML, CSS, and
-                JavaScript, React.js
+                • Intern as a frontend developer, hands-on with HTML, CSS, and
+                JavaScript, React.
               </p>
               <p>
-                Actively contributed to frontend projects during a month-long
-                internship, gaining practical experience in web development
+                • Actively contributed to frontend projects during a month-long
+                internship, gaining practical experience in web development.
+              </p>
+            </Timeline.Body>
+          </Timeline.Content>
+        </Timeline.Item>
+
+
+        <Timeline.Item>
+          <Timeline.Point icon={HiOfficeBuilding} />
+          <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
+            <Timeline.Title>
+              Social Intern - Warriors Foundation
+            </Timeline.Title>
+            <Timeline.Time className="text-gray-900">
+              March 2023 - April 2023
+            </Timeline.Time>
+            <Timeline.Body className="text-gray-900">
+              <p>
+              • Managed social events during an internship such as Cleanliness Drive, Donation Drive
+              </p>
+              <p>
+              • Successfully handled social events during an internship, demonstrating effective event management.
               </p>
             </Timeline.Body>
           </Timeline.Content>
@@ -59,5 +87,4 @@ const Experience = () => {
     </div>
   );
 };
-
 export default Experience;
