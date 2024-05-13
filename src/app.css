@@ -1,0 +1,25 @@
+@keyframes slideRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-slide-Right {
+    animation: slideRight 30s linear infinite;
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-slide-Left {
+    animation: slideLeft 30s linear infinite;
+  }
