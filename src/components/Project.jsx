@@ -9,10 +9,10 @@ const Project = () => {
   return (
     <div
       id="project"
-      className="font-openSans lg:h-[112vh] xl:h-[62vh] lg:flex lg:items-center"
+      className="container xl:mx-auto max-w-7xl font-openSans lg:h-[112vh] xl:h-[62vh] lg:flex lg:items-center"
     >
       <div className="flex items-center justify-center flex-col">
-        <p className="group text-black text-[28px] font-semibold my-1 transition-all duration-300 ease-in-out">
+        <p className="group text-black text-[28px] font-bold my-4 transition-all duration-300 ease-in-out">
           <span
             className=" p-2 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
           group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"

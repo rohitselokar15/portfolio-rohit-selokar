@@ -5,7 +5,7 @@ import user from "../assets/user.jpg";
 
 const Home = () => {
   return (
-    <div id="/" className="xl:mx-24 lg:grid grid-cols-2 ">
+    <div id="/" className="container xl:mx-auto max-w-7xl lg:grid grid-cols-2 ">
       <div>
         <div className=" bg-purple-200 font-openSans md:my-6 mx-12 text-center p-5 rounded-2xl text-black lg:my-9 dark:text-white dark:bg-gray-800">
           <p className="text-[34px] font-bold md:text-[40px]">
@@ -38,7 +38,7 @@ const Home = () => {
         <div className=" p-2 mt-8  flex flex-col items-center">
           <img
             src={user}
-            className=" bg-purple-500 shadow-lg shadow-purple-800 rounded-3xl w-[190px] md:w-[260px] lg:w-[250px] xl:w-[250px] md:rounded-[30%] lg:rounded-[20%] md:bg-purple-700 md:shadow-xl md:shadow-indigo-800/50"
+            className=" bg-purple-500 shadow-lg shadow-purple-800 w-[190px] md:w-[260px] lg:w-[250px] xl:w-[250px] rounded-[50%] md:bg-purple-700 md:shadow-xl md:shadow-indigo-800/50"
           />
           <div className=" flex items-center justify-center lg:mt-2 text-white mt-2">
             <a href="Rohit_Selokar_Resume.pdf" download>
@@ -60,7 +60,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/rohit-selokar-061755217/"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-8 lg:mx-8 border-purple-900 bg-purple-200 dark:bg-white text-blue-600 hover:bg-blue-700 hover:text-white hover:duration-700 dark:text-blue-600"></i>
+              <i className="fa-brands fa-linkedin text-[28px] m-3  p-2 rounded-[50%] md:my-10 lg:mx-8 border-purple-900 bg-purple-200 dark:bg-white text-blue-600 hover:bg-blue-700 hover:text-white hover:duration-700 dark:text-blue-600"></i>
             </a>
           </p>
 

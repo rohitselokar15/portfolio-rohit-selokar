@@ -5,9 +5,9 @@ import { HiHome } from "react-icons/hi";
 
 const Education = () => {
   return (
-    <div id="education" className="my-12 mx-14 md:mx-22 lg:mx-36 xl:mx-52">
-      <div className="flex justify-center mb-8">
-        <p className=" group text-black text-[28px] font-semibold my-1 transition-all duration-300 ease-in-out">
+    <div id="education" className="container xl:mx-auto max-w-7xl mt-6">
+      <div className="flex justify-center">
+        <p className=" group text-black text-[28px] my-16 font-bold transition-all duration-300 ease-in-out tracking-wider">
           <span
             className=" p-2 bg-left-bottom bg-gradient-to-r from-purple-500 to-purple-900 bg-[length:0%_5px] bg-no-repeat 
           group-hover:bg-[length:100%_4px] cursor-pointer transition-all duration-700 ease-out dark:text-white"
@@ -16,7 +16,7 @@ const Education = () => {
           </span>
         </p>
       </div>
-      <Timeline horizontal>
+      <Timeline horizontal className="mx-10">
         <Timeline.Item>
           <Timeline.Point icon={HiHome} />
           <Timeline.Content className=" border-purple-900 border-l-2 pl-2 p-2 md:border-none md:pl-0">
