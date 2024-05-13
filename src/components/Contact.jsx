@@ -14,7 +14,7 @@ const Contact = () => {
       })
       .then(
         () => {
-          Swal.fire("SweetAlert2 is working!");
+          Swal.fire("Done");
           form.current.reset();
         },
         (error) => {
