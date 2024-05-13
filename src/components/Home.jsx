@@ -41,7 +41,7 @@ const Home = () => {
             className=" bg-purple-500 shadow-lg shadow-purple-800 w-[190px] md:w-[260px] lg:w-[250px] xl:w-[250px] rounded-[50%] md:bg-purple-700 md:shadow-xl md:shadow-indigo-800/50"
           />
           <div className=" flex items-center justify-center lg:mt-2 text-white mt-2">
-            <a href="Rohit_Selokar_Resume.pdf" download>
+            <a href="Rohit Selokar_Resume.pdf" download>
               <button className="mx-3 p-1.5 my-4 px-3 font-semibold text-[18px] text-white rounded-md bg-purple-700 shadow-lg shadow-indigo-800/70 hover:bg-purple-900">
                 Resume
               </button>
